@@ -1,0 +1,17 @@
+INFO:root:anomalies detected: {'src_ip': '192.168.0.6', 'dst_ip': '42.162.23.115', 'src_port': 30456, 'dst_port': 51692, 'protocol': 'TCP'}
+INFO:root:anomalies detected: {'src_port': 64378, 'dst_port': 50265, 'protocol': 'UDP'}
+INFO:root:anomalies detected: {'src_port': 50265, 'dst_port': 64378, 'protocol': 'UDP'}
+INFO:root:anomalies detected: {'src_port': 50265, 'dst_port': 35228, 'protocol': 'UDP'}
+INFO:root:anomalies detected: {'src_port': 50265, 'dst_port': 35228, 'protocol': 'UDP'}
+INFO:root:anomalies detected: {'src_port': 50265, 'dst_port': 40679, 'protocol': 'UDP'}
+INFO:root:anomalies detected: {'src_port': 50265, 'dst_port': 40679, 'protocol': 'UDP'}
+INFO:root:anomalies detected: {'src_port': 50265, 'dst_port': 12102, 'protocol': 'UDP'}
+INFO:root:anomalies detected: {'src_port': 50265, 'dst_port': 12102, 'protocol': 'UDP'}
+INFO:root:anomalies detected: {'src_port': 30340, 'dst_port': 6881, 'protocol': 'TCP'}
+INFO:root:anomalies detected: {'src_port': 3190, 'dst_port': 50265, 'protocol': 'UDP'}
+INFO:root:anomalies detected: {'src_port': 50265, 'dst_port': 3190, 'protocol': 'UDP'}
+INFO:root:anomalies detected: {'src_port': 50265, 'dst_port': 3190, 'protocol': 'UDP'}
+INFO:root:anomalies detected: {'src_port': 6881, 'dst_port': 30055, 'protocol': 'TCP'}
+INFO:root:anomalies detected: {'src_port': 30269, 'dst_port': 59291, 'protocol': 'TCP'}
+INFO:root:anomalies detected: {'src_ip': '192.168.0.6', 'dst_ip': '81.91.264.31', 'src_port': 30462, 'dst_port': 61776, 'protocol': 'TCP'}
+INFO:root:anomalies detected: {'src_ip': '192.168.0.6', 'dst_ip': '192.168.15.12', 'src_port': 443, 'dst_port': 30494, 'protocol': 'TCP'}
