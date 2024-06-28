@@ -1,4 +1,4 @@
-# Basic- Network Intrusion Detection System
+# Basic - Network Intrusion Detection System
 This project is a simple Network Intrusion Detection System (NIDS) written in Python using the Scapy library. The NIDS monitors network traffic, extracts relevant features from each packet, and detects anomalies based on predefined rules.
 
 ## Features
