@@ -10,7 +10,7 @@ This project is a simple Network Intrusion Detection System (NIDS) written in Py
 
 ## Here's an explanation of the key components and functionality:
 #### 1.Imports:
-*scapy.all for network packet capturing and processing.
+* scapy.all for network packet capturing and processing.
 *logging for logging events.
 
 #### 2.process_packet Function:
