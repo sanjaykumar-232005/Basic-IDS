@@ -11,30 +11,30 @@ This project is a simple Network Intrusion Detection System (NIDS) written in Py
 ## Here's an explanation of the key components and functionality:
 #### 1.Imports:
 * scapy.all for network packet capturing and processing.
-*logging for logging events.
+* logging for logging events.
 
 #### 2.process_packet Function:
-*Processes each captured packet.
-*Extracts features from the packet using the extract_features function.
-*Checks for anomalies in the extracted features using the detect_anomalies function.
-*Logs and prints events based on whether anomalies are detected or not.
+* Processes each captured packet.
+* Extracts features from the packet using the extract_features function.
+* Checks for anomalies in the extracted features using the detect_anomalies function.
+* Logs and prints events based on whether anomalies are detected or not.
 
 #### 3.extract_features Function:
-*Extracts relevant features from the packet, such as source IP, destination IP, source port, destination port, and protocol (TCP/UDP).
+* Extracts relevant features from the packet, such as source IP, destination IP, source port, destination port, and protocol (TCP/UDP).
 
 #### 4.detect_anomalies Function:
-*Checks if the destination port is in a set of known ports (80, 443, 21, 22).
-*Flags the packet as anomalous if the destination port is not in the known ports.
+* Checks if the destination port is in a set of known ports (80, 443, 21, 22).
+* Flags the packet as anomalous if the destination port is not in the known ports.
 
 #### 5.log_event Function:
-*Logs events to a file (ids.log).
+* Logs events to a file (ids.log).
 
 #### 6.Logging Configuration:
-*Configures logging to write info-level logs to ids.log.
+* Configures logging to write info-level logs to ids.log.
 
 #### 7.Packet Sniffing:
-*Uses sniff from Scapy to capture packets and process them with process_packet.
-*Captures 20 packets for processing.
+* Uses sniff from Scapy to capture packets and process them with process_packet.
+* Captures 20 packets for processing.
 
 ## How It Works:
 - The script captures network packets using Scapy.
